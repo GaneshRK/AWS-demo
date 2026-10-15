@@ -1,6 +1,5 @@
-
 #!/bin/bash
 set -e
 
-systemctl enable nginx
-systemctl restart nginx
+systemctl enable httpd
+systemctl restart httpd
